@@ -9,7 +9,7 @@ function Message() {
     <section id="message">
       <div className="message-container center">
         <div className="input-container">
-          <input type="text" placeholder="Type your message" />
+          <input id="msg-input" type="text" placeholder="Type your message" />
           <span className="attach">
             <img src={attach} alt="" />
           </span>
