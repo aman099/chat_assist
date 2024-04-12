@@ -1,10 +1,6 @@
 #navbar {
-  /* background-color: teal; */
   border-top-left-radius: var(--border-rad);
   border-top-right-radius: var(--border-rad);
-  /* border-top: 10px solid #ffffff;
-  border-left: 10px solid #ffffff;
-  border-right: 10px solid #ffffff; */
   padding: 10px 10px 0 10px;
   background-color: #ffffff;
   margin: 0 auto;
@@ -20,8 +16,6 @@
   padding-right: 24px;
   border-top-left-radius: var(--border-rad);
   border-top-right-radius: var(--border-rad);
-  /*  */
-  /* max-width: 500px; */
   width: 100%;
 }
 #navbar .navbar-container .left {
@@ -47,7 +41,6 @@
   font-size: 18px;
   line-height: var(--line-height);
   font-weight: 600;
-  /*  */
   display: flex;
   align-items: center;
   gap: 4px;

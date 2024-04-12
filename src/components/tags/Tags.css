@@ -1,9 +1,5 @@
 #popular-tags {
   background-color: #ffffff;
-  /*  */
-  /* margin-left: -10px; */
-  /* padding-left: 36px; */
-  /*  */
   margin: 0 auto;
   padding: 60px 30px;
   padding-bottom: 40px;
@@ -14,15 +10,7 @@
 }
 
 #popular-tags .popular-tags-container {
-  /*  */
-  /* max-width: 500px; */
-  /* width: 100%; */
-  /* width: 350px; */
-  /*  */
   overflow: hidden;
-  /*  */
-  position: static;
-  /* z-index: 0; */
 }
 
 #popular-tags .popular-tags-container .popular-title {
@@ -55,7 +43,6 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  /*  */
 }
 /* Conditional classes */
 .flex-wrap {
@@ -77,12 +64,10 @@
   font-size: 13px;
   font-weight: 500;
   line-height: var(--line-height);
-  /*  */
   border-radius: 10px;
   cursor: pointer;
   padding: 6px 14px;
   white-space: nowrap;
-  /*  */
   display: flex;
   align-items: center;
   gap: 10px;
@@ -119,7 +104,6 @@
 }
 @media only screen and (max-width: 360px) {
   #popular-tags {
-    /* padding: 60px 16px; */
     padding: 50px 16px;
     width: 339px;
   }

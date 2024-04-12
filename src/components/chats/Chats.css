@@ -5,18 +5,13 @@
   margin: 0 auto;
 }
 #chats .chats-container {
-  /* padding-left: 81px;
-  padding-right: 81px; */
-  /*  */
   display: flex;
   flex-direction: column;
   gap: 50px;
   /*  */
   width: 422px;
-  /* max-width: 500px; */
 }
 #chats .chats-container .left-chat {
-  /* background-color: var(--color-15); */
   background: linear-gradient(to right, #e3ecff 50%, #e5eeff 50%);
   position: relative;
   margin-left: 30px;
@@ -60,10 +55,6 @@
   z-index: 1;
 }
 
-#chats .chats-container .left-chat .left-chat-container {
-}
-#chats .chats-container .right-chat .right-chat-container {
-}
 #chats .chats-container .left-chat .left-chat-container p {
   font-size: 13px;
   font-weight: 400;
