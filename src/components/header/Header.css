@@ -77,12 +77,20 @@
     margin-right: 98px;
   }
 }
+@media only screen and (max-width: 426px) {
+  #navbar {
+    width: 370px;
+  }
+}
 @media only screen and (max-width: 420px) {
   #navbar .navbar-container .left {
     margin-right: 68px;
   }
 }
 @media only screen and (max-width: 376px) {
+  #navbar {
+    width: 350px;
+  }
   #navbar .navbar-container .left .profile-info .profile-name {
     font-size: 14px;
   }
@@ -91,16 +99,25 @@
   }
 }
 @media only screen and (max-width: 360px) {
+  #navbar {
+    width: 339px;
+  }
   #navbar .navbar-container .right {
     font-size: 12px;
   }
 }
 @media only screen and (max-width: 345px) {
+  #navbar {
+    width: 330px;
+  }
   #navbar .navbar-container .left {
     margin-right: 59px;
   }
 }
 @media only screen and (max-width: 330px) {
+  #navbar {
+    width: 320px;
+  }
   #navbar .navbar-container .left {
     margin-right: 50px;
   }

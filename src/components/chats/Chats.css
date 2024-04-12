@@ -67,6 +67,11 @@
 }
 
 /* Media query */
+@media only screen and (max-width: 426px) {
+  #chats .chats-container {
+    width: 370px;
+  }
+}
 @media only screen and (max-width: 420px) {
   #chats .chats-container {
     width: 370px;

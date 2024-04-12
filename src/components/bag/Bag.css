@@ -87,6 +87,13 @@
     width: 400px;
   }
 }
+@media only screen and (max-width: 426px) {
+  /* Bag section */
+  #handbag {
+    width: 370px;
+  }
+}
+
 @media only screen and (max-width: 420px) {
   /* Bag section */
   #handbag {
