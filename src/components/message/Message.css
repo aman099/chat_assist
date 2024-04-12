@@ -85,6 +85,7 @@
 
 /* Media Query */
 @media only screen and (max-width: 600px) {
+  /* Message section */
   #message {
     width: 400px;
   }
@@ -99,7 +100,13 @@
 }
 @media only screen and (max-width: 450px) {
   #message {
+    /* width: 370px; */
     width: 400px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  #message {
+    width: 370px;
   }
 }
 @media only screen and (max-width: 376px) {
