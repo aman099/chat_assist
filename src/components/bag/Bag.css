@@ -1,0 +1,150 @@
+#handbag {
+  margin: 0 auto;
+  width: 422px;
+  padding-left: 30px;
+  background-color: #fff;
+}
+
+#handbag .handbag-container {
+  display: flex;
+  flex-direction: column;
+  /*  */
+  background-color: var(--color-15);
+  /*  */
+  padding: 14px;
+  width: 280px;
+  border-radius: var(--border-rad);
+  /*  */
+  position: relative;
+}
+#handbag .handbag-container::before {
+  content: "4:48 PM";
+  position: absolute;
+  bottom: -20px;
+  left: 14px;
+  width: 20%;
+  color: #333333;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.5;
+  z-index: 1;
+}
+
+#handbag .handbag-container .handbag-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  background-color: #ffffff;
+  /*  */
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+#handbag .handbag-container .handbag-top .handbag-img {
+}
+#handbag .handbag-container .handbag-top .handbag-desc h5 {
+  font-size: 14px;
+  line-height: var(--line-height);
+  font-weight: 500;
+  color: #333333;
+  /*  */
+  display: flex;
+  gap: 10px;
+}
+#handbag .handbag-container .handbag-top .handbag-desc h5 span {
+  margin-top: 2px;
+}
+#handbag .handbag-container .handbag-top .handbag-desc p {
+  font-size: 12px;
+  line-height: var(--line-height);
+  font-weight: 400;
+  color: #949494;
+  /*  */
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+#handbag .handbag-container .handbag-top .handbag-desc p span img {
+  display: block;
+}
+
+.handbag-img img {
+  display: block;
+  border-radius: 10px;
+  width: 74px;
+}
+#handbag .handbag-container .handbag-bottom p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: var(--line-height);
+  color: #000;
+}
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+  /* Bag section */
+  #handbag {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  /* Bag section */
+  #handbag {
+    width: 370px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  /* Bag section */
+  #handbag {
+    width: 350px;
+    padding-left: 20px;
+  }
+  #handbag .handbag-container .handbag-top {
+    margin-bottom: 12px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  /* Bag section */
+  #handbag {
+    width: 339px;
+    padding-left: 16px;
+  }
+  #handbag .handbag-container {
+    width: 260px;
+  }
+  #handbag .handbag-container .handbag-top .handbag-desc h5 {
+    font-size: 12px;
+  }
+  #handbag .handbag-container .handbag-top .handbag-desc p {
+    font-size: 11px;
+  }
+  #handbag .handbag-container .handbag-bottom p {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 345px) {
+  #handbag {
+    width: 330px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  #handbag {
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #handbag {
+    max-width: 310px;
+  }
+}
+@media only screen and (max-width: 310px) {
+  #handbag {
+    max-width: 300px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  #handbag {
+    max-width: 290px;
+  }
+}

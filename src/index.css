@@ -1,13 +1,53 @@
-body {
+*,
+*::before,
+*::after {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --color-1: #4c82ef;
+  --color-2: #737373;
+  --color-3: #666666;
+  --color-4: #ffffff;
+  --color-5: #f4f4f4;
+  --color-6: #333333;
+  --color-7: #949494;
+  --color-8: #f2cf18;
+  --color-9: #f2f7ff;
+  --color-10: #3fe225;
+  --color-11: #ffed8c;
+  --color-12: #7a7f8c;
+  --color-13: #b1b1b1;
+  --color-14: #dcf7c5;
+  --color-15: #e3ecff;
+  --color-16: #dcf7c5;
+  --border-rad: 20px;
+  --line-height: 1.5;
+  /* background: linear-gradient(100.24deg, #E6EEFF 13.91%, #FFFFFF 116.73%);
+background: linear-gradient(114.92deg, #E6EEFF 34.14%, #FAFCFF 105.26%);
+background: linear-gradient(156.72deg, #E6EEFF 28.87%, rgba(230, 238, 255, 0) 103.1%);
+background: linear-gradient(100.27deg, #EFF3FD 33.17%, rgba(239, 243, 253, 0) 122.24%);
+background: #EFF3FD;
+background: #F6F9FF;
+background: radial-gradient(152.95% 83.67% at 54.44% 42.5%, #FFFFFF 50.47%, rgba(227, 225, 225, 0) 100%)  */
+  /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
 }
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.width {
+  width: 422px;
+}
+
+/* General styles */
+li {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+/*  */

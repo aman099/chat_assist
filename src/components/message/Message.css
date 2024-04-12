@@ -1,0 +1,153 @@
+#message {
+  background-color: #ffffff;
+  width: 422px;
+  /*  */
+  border-bottom-left-radius: var(--border-rad);
+  border-bottom-right-radius: var(--border-rad);
+  border: 10px solid #ffffff;
+}
+
+#message .message-container {
+  background-color: var(--color-15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /*  */
+  padding: 14px 20px;
+  border-bottom-left-radius: var(--border-rad);
+  border-bottom-right-radius: var(--border-rad);
+  /* border: 10px solid #ffffff; */
+}
+#message .message-container .input-container {
+  flex-basis: 100%;
+  position: relative;
+}
+#message .message-container .input-container .attach {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  cursor: pointer;
+}
+#message .message-container .input-container .attach img {
+  display: block;
+}
+#message .message-container .input-container input {
+  padding: 13px 20px;
+  border-radius: 10px;
+  border: 1px solid #e3ecff;
+  outline: none;
+  width: 100%;
+}
+#message .message-container .button-container .btn {
+  padding: 10px 34px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--color-1);
+}
+#message .message-container .button-container .btn img {
+  width: 12px;
+}
+
+/* Footer */
+.f00ter {
+  border-bottom-left-radius: var(--border-rad);
+  border-bottom-right-radius: var(--border-rad);
+  /*  */
+  text-align: center;
+  margin-top: -17px;
+  background-color: var(--color-15);
+}
+#footer {
+  padding: 14px 10px 8px 10px;
+}
+
+#footer .footer-container p {
+  color: #b1b1b1;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: var(--line-height);
+  /*  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer .footer-container p .krunk {
+  color: #7a7f8c;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: var(--line-height);
+  margin-left: 5px;
+}
+#footer .footer-container p .krunk-logo img {
+  display: block;
+  margin-left: 5px;
+}
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+  /* Message section */
+  #message {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  #message .message-container {
+    flex-direction: column;
+  }
+  #message .message-container .input-container {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  #message {
+    width: 370px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  #message {
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  #message {
+    width: 339px;
+  }
+  #message .message-container {
+    padding: 14px 10px;
+  }
+}
+@media only screen and (max-width: 345px) {
+  #message {
+    width: 330px;
+  }
+  #message .message-container .button-container .btn {
+    padding: 5px 24px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  #message {
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #message {
+    width: 310px;
+  }
+}
+@media only screen and (max-width: 310px) {
+  #message {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  #message {
+    width: 290px;
+  }
+  #message .message-container {
+    padding: 8px;
+  }
+  #popular-tags .arrow {
+    top: 56%;
+  }
+}
