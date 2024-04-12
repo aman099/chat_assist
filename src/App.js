@@ -1,12 +1,11 @@
 import "./App.css";
 import Bag from "./components/bag/Bag.jsx";
 import Chats from "./components/chats/Chats.jsx";
-// import Filter from "./components/filter/Filter.jsx";
-// import Footer from "./components/footer/Footer.jsx";
 import Header from "./components/header/Header.jsx";
 import Message from "./components/message/Message.jsx";
 import Tags from "./components/tags/Tags.jsx";
 
+// Data for re-usable/modular Tags component
 const tags_data = [
   {
     title: "Popular tags for handbag",
@@ -35,7 +34,6 @@ function App() {
       <Bag />
       <Tags tags_data={tags_data[1]} />
       <Message />
-      {/* <Footer /> */}
     </div>
   );
 }

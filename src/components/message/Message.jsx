@@ -1,6 +1,5 @@
 import "./Message.css";
 
-// import right_chevron from "../../assets/right-chevron.svg";
 import right_chevron_2 from "../../assets/right-chevron_2.svg";
 import krunk_logo from "../../assets/krunk_logo.svg";
 import attach from "../../assets/attach.svg";
